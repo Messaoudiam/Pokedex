@@ -14,6 +14,7 @@ const pokemonList = [
 function App() {
   return (
     <div>
+      {/*le "pokemon" vient de PokemonCard */}
       <PokemonCard pokemon={pokemonList[0]} />
     </div>
   );
