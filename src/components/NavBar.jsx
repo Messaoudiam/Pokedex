@@ -2,6 +2,9 @@ import PropTypes from "prop-types";
 
 function NavBar({ pokemonIndex, setPokemonIndex, pokemonList }) {
   const handlePokemonClick = (index) => {
+    if (pokemonList[index].name === "pikachu") {
+      alert("pika pikachu !!!");
+    }
     setPokemonIndex(index);
   };
 
